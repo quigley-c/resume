@@ -5,6 +5,19 @@
 \usepackage{titling}
 \usepackage[a4paper, total={6in, 8in}, margin=0.5in, headheight=0.5in, tmargin=0.5in]{geometry}
 
+\usepackage[utf8]{inputenc}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{fourier,erewhon}
+\usepackage{amssymb, amsbsy}
+\usepackage{array, booktabs,longtable}
+\usepackage{graphicx}
+\usepackage[x11names, table]{xcolor}
+\usepackage{caption}
+
+
+\newcommand{\foo}{\color{LightSteelBlue3}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
+
+
 \setlength{\droptitle}{0em}
 \title{Carson Quigley}
 \date{}
@@ -50,67 +63,70 @@ SUNY Binghamton Class of 2022
 \end{multicols}
 \endgroup
 
-
 \begingroup
 \centering
 \section*{Objective}
-I'm looking for a job to support myself while in school for a master's degree. 
-Adaptive, empathetic, social, and proficient in many programming languages. 
-In fact, this resume was written in LaTeX! Must be able to work around a school schedule.
+In the beginning there was Game Maker. I was 7. In college I was well known among
+my peers and department for being a stand-out learner and teacher. Now, I'm a CS
+grad looking for a job to support my education.
 \endgroup
 
+\hspace{1cm}
 
-\section*{Practical Experience}
+\begin{longtable}{@{\,}r <{\hskip 2pt} !{\foo} >{\raggedright\arraybackslash}p{14cm}}
+June 2020 - Present & SUNY Binghamton Computer Science Master's Studies \\
 
-\subsection*{Computer Science TA / Tutor}
-Allegheny College Computer Science Department (Spring 2018 - Spring 2020)
-Guiding students through programming concepts. Assisting the professor with teaching class.
+ & \\
+ & \\
 
-\begin{multicols}{2}
-\begin{itemize}
-    \item Intro Java I
-    \item Intro Java 2
-    \item Intro Programming Mathematics
-\end{itemize}
-\end{multicols}
+May 2020 & Graduated from Allegheny College with a Bachelor of Science in Computer Science \\
 
-\subsection*{IT Internship}
-U.S. Bankruptcy Court (Summer 2019)
-Interning with professionals using skills in software development and time management. Shadowing and assisting members of the team, including the Systems Administrator.
+ & \\
+ & \\
 
-\subsection*{Executive Board / Events and Electronics Manager}
-Grounds For Change Coffee (Spring 2017 - Spring 2018)
-Managing and training volunteers, Scheduling and setting up live music or other events that use the shop as a space.
+August 2020 - May 2020 & Undergraduate Thesis Work: Machine Learning Based Image Color Picking Tool \\
 
+ & \\
+ & \\
 
-\section*{Skills}
+January 2018 - May 2020 & Computer Science TA / Tutor \\
 
-\begin{multicols}{2}
-\begin{itemize}
-    \item Programming Languages
-    \item Time Management
-    \item Business Management
-    \item Customer Service
-\end{itemize}
-\end{multicols}
+ & \\
+ & \\
 
+2019 & Presented GatorGrouper at conference (PyCon 2019) \\
 
-\section*{Academic Achievments and Research}
+ & \\
+ & \\
 
-\begin{multicols}{2}
-\subsection*{Trustee Scholar}
-Allegheny College (2016 - 2020)
+2019 & Team Lead for GatorGrouper Open Source Tool in a Large Team as Part of G. Kapfhammer's Class. \\
 
-\subsection*{Mellon Fellow Research Grant}
-With Xiaoling Shi, Allegheny College (Summer 2017)
+ & \\
+ & \\
 
-\subsection*{Cupper Scholar}
-Allegheny College (Summer 2018)
+June 2019 - August 2019 & Bankruptcy Court IT Intern \\
 
-\subsection*{Cincala Fund for Research}
-With Dr. Aravind Mohan, Allegheny College (Summer 2018)
+ & \\
+ & \\
 
-\end{multicols}
+May 2018 - August 2018 & Cupper Scholar Grant for Student Research on YouTube Comment Scraping \\
+
+ & \\
+ & \\
+
+May 2018 - August 2018 & Cincala Fund for Research awarded for BHEFT Scheduling Algorithm Analysis with A. Mohan at Allegheny College \\
+
+ & \\
+ & \\
+
+May 2017 - August 2017 & Mellon Fellow Research on Modernist Literature "A Death in Chicago" with Xiaoling Shi at Allegheny College \\
+
+ & \\
+ & \\
+
+August 2016 & Awarded Trustee Scholar 4-year Scholarship by Allegheny College \\
+
+\end{longtable}
 
 
 \end{document}
